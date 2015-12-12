@@ -1,7 +1,7 @@
 # Nome do tutorial
-  [Uma breve descrição do que será abordado.]
-  Versão do bukkit: 1.7.2
-  Data: 12/12/2015
+  [Uma breve descrição do que será abordado.]  
+  Versão do bukkit: 1.7.2  
+  Data: 12/12/2015  
 ## Tópico 1
 Tutorial...
 ## Tópico 2  
