@@ -23,19 +23,7 @@ Esse é um projeto para reunir tutoriais de todos os desenvolvedores Bukkit. Cri
 
 6. Tutoriais será somente em texto e em markdown.
 
-7. O tutorial deve seguir o seguinte padrão:  
-  > # Nome do tutorial  
-  > [Uma breve descrição do que será abordado.]  
-  > * Versão do bukkit: 1.7.2  
-  > * Data: 12/12/2015  
-  > ## Tópico 1  
-  > Tutorial...  
-  > ## Tópico 2  
-  > Tutorial...  
-  >### Autores principais:  
-  > * Neitan96([WebSite](http://www.nathanalmeida.com.br/), Skype:DevNeitan)  
-  >### Contribuidores:  
-  > * Jonathan(Skype:jonathan_scripter) - 12/12/2015  
+7. O tutorial deve seguir o seguinte [padrão](Padr%C3%A3o%20do%20tutorial.md).
 
   OBS: *Pode criar quantos tópicos quiser.*  
   OBS²: *Não precisa seguir esse padrão a risca.*
