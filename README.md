@@ -3,6 +3,7 @@
 Esse é um projeto para reunir tutoriais de todos os desenvolvedores Bukkit. Criado para ser um guia completo de como programar com a API do Bukkit. Caso deseje ajudar sinta-se a vontade de criar, modificar tutoriais.
 
 ## [Index](index.md)
+## [Autores](Autores.md)
 
 ## Padrões e regras
 
