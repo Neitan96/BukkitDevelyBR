@@ -2,12 +2,17 @@
 
 Esse é um projeto para reunir tutoriais de todos os desenvolvedores Bukkit, praticamente uma coleção de tutoriais Bukkit em português. Criado para ser um guia completo de como programar com a API do Bukkit. Caso deseje ajudar sinta-se a vontade de criar, modificar tutoriais.
 
-Caso não saiba por onde começar preparamos um guia com a ordem adequada para aprender, basta clicar [aqui](#).
+Caso não saiba por onde começar preparamos um guia com a ordem adequada para aprender, basta clicar [aqui](Guia.md).
 
-## [Index](index.md)
-## [Autores](Autores.md)
+## Links:
+* [Index](index.md)
+* [Autores](Autores.md)
+* [Guia](Guia.md)
 
-## Padrões e regras
+## Suporte
+Caso tenha dúvidas e etc, não hesite em contatar os autores dos tutoriais, a nossa equipe ou mande-nos uma Issue pelo github.
+
+## Padrões e regras para postagem de tutoriais
 
 1. Primeiro você deve colocar no diretório certo, em:
   * Bukkit Básico *Tutoriais básicos sobre Bukkit*
