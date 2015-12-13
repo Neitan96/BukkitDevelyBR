@@ -5,7 +5,7 @@
 
 ## plugin.yml
 
-Primeiro temos que criar o plugin.yml, no seu projeto dentro de nenhum package crie um arquivo chamado *plugin.yml*, nele conterar todas as informações do seu plugin, para ver a documentação oficial clique [aqui](http://wiki.bukkit.org/Plugin_YAML).
+Primeiro temos que criar o plugin.yml, no seu projeto dentro de nenhum package crie um arquivo chamado *plugin.yml*, nele irá conter todas as informações do seu plugin, para ver a documentação oficial clique [aqui](http://wiki.bukkit.org/Plugin_YAML).
 
 primeiro vamos colocar o nome do plugin, para isso usaremos a path *name*, assim:
 ```Yaml
@@ -25,14 +25,14 @@ Agora o *plugin.yml* está quase pronto.
 
 ## Classe principal
 
-Para criar a classe principal temos que criar um package para seu plugin, um package é tipo um endenreço de um rua dentro do Java, e nessa rua temos as casas que são as classes.  
+Para criar a classe principal temos que criar um package para seu plugin, um package é tipo um enderenço de um rua dentro do Java, e nessa rua temos as casas que são as classes.  
 
-Para cada plugin temos que criar um package unico, geralmente os desenvolvedores usam o nome do seu site de tras pra frente e depois o nome do plugin, exemplo:  
+Para cada plugin temos que criar um package único, geralmente os desenvolvedores usam o nome do seu site de tras pra frente e depois o nome do plugin, exemplo:  
 **br.com.nathanalmeida.nomedoplugin**  
 Caso não tiver um site, geralmente é usado a sigla do seu país depois seu nick e depois o nome do plugin, exemplo:  
 **br.neitan96.nomedoplugin**  
 
-Depois de criar o package do seu plugin, temos que criar a classe principal, geralmente os desenvolvedores cria uma classe chamada *Main*, mas particulamente gosto de criar uma classe com o nome do plugin, exemplo: *NomeDoPlugin*, lembre-se você deve criar suas classes dentro da package do seu plugin.
+Depois de criar o package do seu plugin, temos que criar a classe principal, geralmente os desenvolvedores cria uma classe chamada *Main*, mas particularmente gosto de criar uma classe com o nome do plugin, exemplo: *NomeDoPlugin*, lembre-se você deve criar suas classes dentro da package do seu plugin.
 
 ## JavaPlugin
 
@@ -45,7 +45,7 @@ public class NomeDoPlugin{
 }
 ```
 
-Para definir que essa classe é um plugin temos que extende-la a *JavaPlugin* assim:
+Para definir que essa classe é um plugin temos que estende-la a *JavaPlugin* assim:
 
 ```Java
 package br.neitan96.nomedoplugin;
@@ -60,7 +60,7 @@ Pronto, sua classe principal está pronta.
 
 ## onEnable e onDisable
 
-Agora vamos definir o que o plugin irá fazer quando o plugin ligar e quando desligar, para isso temos os dois metodos *onEnable* e *onDisable*, primeiro vamos criar o *onEnable*, assim:
+Agora vamos definir o que o plugin irá fazer quando o plugin ligar e quando desligar, para isso temos os dois métodos *onEnable* e *onDisable*, primeiro vamos criar o *onEnable*, assim:
 
 ```Java
 package br.neitan96.nomedoplugin;
