@@ -1,6 +1,7 @@
 # Nome do tutorial
   [Uma breve descrição do que será abordado.]  
   Versão do bukkit: 1.7.2  
+  IDE: [Nome da IDE] *Somente se for um tutorial para um IDE*  
   Data: 12/12/2015  
 ## Tópico 1
 Tutorial...

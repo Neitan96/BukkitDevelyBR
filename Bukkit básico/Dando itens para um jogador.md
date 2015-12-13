@@ -2,7 +2,7 @@
 **Descrição:** Irei ensinar nesse tutorial a dar itens para um jogador de forma bem simples e resumida, você poderá mudar o nome do item e dar
 a ele uma descrição.
 
-**Versão Do Bukkit:** 1.5.2  
+**Versão Do Bukkit:** Todas  
 **Data:** 13/12/2015
 
 ## Criando O Item

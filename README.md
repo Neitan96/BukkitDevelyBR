@@ -1,6 +1,8 @@
 # BukkitDevelyBR
 
-Esse é um projeto para reunir tutoriais de todos os desenvolvedores Bukkit. Criado para ser um guia completo de como programar com a API do Bukkit. Caso deseje ajudar sinta-se a vontade de criar, modificar tutoriais.
+Esse é um projeto para reunir tutoriais de todos os desenvolvedores Bukkit, praticamente uma coleção de tutoriais Bukkit em português. Criado para ser um guia completo de como programar com a API do Bukkit. Caso deseje ajudar sinta-se a vontade de criar, modificar tutoriais.
+
+Caso não saiba por onde começar preparamos um guia com a ordem adequada para aprender, basta clicar [aqui](#).
 
 ## [Index](index.md)
 ## [Autores](Autores.md)
@@ -8,9 +10,11 @@ Esse é um projeto para reunir tutoriais de todos os desenvolvedores Bukkit. Cri
 ## Padrões e regras
 
 1. Primeiro você deve colocar no diretório certo, em:
-  * Bukkit Básico
-  * Bukkit Avançado
-  * Java
+  * Bukkit Básico *Tutoriais básicos sobre Bukkit*
+  * Bukkit Avançado *Tutoriais avançados sobre Bukkit*
+  * Java *Tutoriais básicos sobre Java*
+  * IDE *Tutoriais sobre IDE*
+  * Plugins *Tutoriais de como criar um determinado plugin completo*
 
 2. Todas os arquivos extras deverão ficar dentro de um diretório com o nome do tutorial no diretório **Resources** dentro de um dos diretórios listados acima, exemplo:   
 **/Bukkit básico/Resources/Schedulers/[Resources]**
