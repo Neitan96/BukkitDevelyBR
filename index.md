@@ -3,7 +3,7 @@
 * [Base do plugin](Bukkit%20básico/Criando%20a%20base%20do%20plugin.md)
 * [Comandos](#) *(Em breve)*
 * [Configs](#) *(Em breve)*
-* [Eventos](#) *(Em breve)*
+* [Eventos](Bukkit%20básico/Criando+Listener%28Monitores%29+de+eventos.md)
 * [Dando itens para um jogador](Bukkit%20básico/Dando%20itens%20para%20um%20jogador.md)
 * [Manipulção de inventário](#) *(Em breve)*
 * [Menus](#) *(Em breve)*
