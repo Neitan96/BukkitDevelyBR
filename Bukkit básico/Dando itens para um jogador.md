@@ -8,6 +8,9 @@ a ele uma descrição.
 #### Autores Principais
 * Herobrinedobem
 
+### Contribuidores
+* Luigi([Twitter](https://twitter.com/LuigiOliveira__),[Github](https://github.com/luigieai)) - 15/12/2015
+
 ## Criando O Item
 Primeiramente temos que criar o item, para isso iremos criar um **ItemStack** que serve para instanciar um novo item além de ser possivel criar mais de um item de uma vez, para isso iremos utilizar o seguinte código:
 
@@ -34,6 +37,11 @@ lista.add("§5Esse item é muito bom!");
 lista.add("§5Oi tudo bem com voce?");  
 meta.setLore(lista);  
 ```
+Outra maneira que podemos fazer o lore, é usando o método **Arrays.asList();**, ela torna o código menor!
+```Java
+meta.setDisplayName("§bNome Muito Maneiro");  
+meta.setLore(Arrays.asList("§5Esse item é muito bom!","§5Oi tudo bem com voce?"));
+```
 
 Bem, primeiramente setamos o display name do item, ou seja, mudamos o nome do item, seguindo crie um **ArrayList** de strings, os ArrayLists são listas
 de coisas que podemos criar, eu criei uma lista de strings, ou seja, uma lista de textos, depois adicionei nessa lista duas mensagens, eu poderia colocar mais
@@ -54,10 +62,7 @@ E assim está pronto, criamos um item customizado e entregamos ele para o nosso 
 ItemStack item = new ItemStack(Material.DIAMOND, 10);   
 ItemMeta meta = item.getItemMeta();  
 meta.setDisplayName("§bNome Muito Maneiro");  
-ArrayList<String> lista = new ArrayList<String>();  
-lista.add("§5Esse item é muito bom!");  
-lista.add("§5Oi tudo bem com voce?");  
-meta.setLore(lista);  
+meta.setLore(Arrays.asList("§5Esse item é muito bom!","§5Oi tudo bem com voce?"));
 item.setItemMeta(meta);  
 player.getInventory().addItem(item);  
 player.updateInventory();  
