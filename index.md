@@ -2,7 +2,7 @@
 
 * [Base do plugin](Bukkit%20básico/Criando%20a%20base%20do%20plugin.md)
 * [Comandos](#) *(Em breve)*
-* [Configs 1](Bukkit%20básico/Gerenciando%20configs%201.md) *(Em breve)*
+* [Configs 1](Bukkit%20básico/Gerenciando%20configs%201.md)
 * [Configs 2](#) *(Em breve)*
 * [Eventos](Bukkit%20básico/Criando%20Listener%20de%20eventos.md)
 * [Dando itens para um jogador](Bukkit%20básico/Dando%20itens%20para%20um%20jogador.md)
