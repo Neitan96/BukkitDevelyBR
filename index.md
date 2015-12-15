@@ -23,6 +23,7 @@
 
 * [Strings](#) *(Em breve)*
 * [Numeros](#) *(Em breve)*
+* [Resumão classe Math em Java](Java/Resumao%20classe%20Math%20em%20Java.md)
 * [Variaveis](#) *(Em breve)*
 * [Modificadores de acesso](#) *(Em breve)*
 * [Arrays](#) *(Em breve)*
@@ -33,14 +34,17 @@
 
 # IDE
 
-* [Baixando e instalando Eclipse](#) *(Em breve)*
-* [Criando um projeto bukkit no Eclipse](#) *(Em breve)*
-* [Compilando o plugin no Eclipse](#) *(Em breve)*
+### Eclipse
+   * [Baixando e instalando Eclipse](#) *(Em breve)*
+   * [Criando um projeto bukkit no Eclipse](#) *(Em breve)*
+   * [Compilando o plugin no Eclipse](#) *(Em breve)*
 
-* [Baixando e instalando Netbeans](#) *(Em breve)*
-* [Criando um projeto bukkit no Netbeans](#) *(Em breve)*
-* [Compilando o plugin no Netbeans](#) *(Em breve)*
+### Netbeans
+  * [Baixando e instalando Netbeans](#) *(Em breve)*
+  * [Criando um projeto bukkit no Netbeans](#) *(Em breve)*
+  * [Compilando o plugin no Netbeans](#) *(Em breve)*
 
-* [Baixando e instalando Intellij](#) *(Em breve)*
-* [Criando um projeto bukkit no Intellij](#) *(Em breve)*
-* [Compilando o plugin no Intellij](#) *(Em breve)*
+### Intellij
+  * [Baixando e instalando Intellij](#) *(Em breve)*
+  * [Criando um projeto bukkit no Intellij](#) *(Em breve)*
+  * [Compilando o plugin no Intellij](#) *(Em breve)*

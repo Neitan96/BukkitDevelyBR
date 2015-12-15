@@ -11,4 +11,4 @@
   * [Eventos](Bukkit%20básico/Criando%20Listener%20de%20eventos.md)
 
 * Luigi
-  * [Resumao classe Math em Java](https://github.com/Neitan96/BukkitDevelyBR/blob/master/Java/Resumao%20classe%20Math%20em%20Java.md)
+  * [Resumão classe Math em Java](Java/Resumao%20classe%20Math%20em%20Java.md)
