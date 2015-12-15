@@ -1,5 +1,5 @@
-# Resumao classe Math em Java
-  Ola pessoal tudo bem! Estou aqui para fazer um resumão dos principais método da classe Math do Java, ela é muito útil pois facilita bastante operações matemáticas, eu meio que fiz uma tradução e bolei os exemplos.  Ela não está completa falta algumas sobre trigonometria no qual não achei muito necessário citar, mas quem quiser colocar a vontade!
+# Resumão classe Math em Java
+  Ola pessoal tudo bem! Estou aqui para fazer um resumão dos principais método da classe Math do Java, ela é muito útil pois facilita bastante operações matemáticas, eu meio que fiz uma tradução e bolei os exemplos. Ela não está completa falta algumas sobre trigonometria no qual não achei muito necessário citar, mas quem quiser colocar a vontade!
   Versão do java: A partir do Java 1
   Data: 15/12/2015  
 
@@ -8,7 +8,7 @@
 
 #### Contribuidores:
  Nenhum até agora :(
- 
+
 ## abs
 Retorna um valor absoluto do numero do parâmetro(módulo)
 ```Java
@@ -56,7 +56,7 @@ double f = Math.floor(3.3);
 ```
 
 ## log
-Retorna o logaritmo natural do valor 
+Retorna o logaritmo natural do valor
 ```Java
 double e = Math.log(36);
 //Retorna
@@ -65,7 +65,7 @@ double e = Math.log(36);
 ```
 
 ## max
- Retorna o maior numero entre os fornecidos no parâmetro 
+ Retorna o maior numero entre os fornecidos no parâmetro
 ```Java
 int e = Math.max(36,24);
 double f = Math.max(103,103.3);
@@ -81,7 +81,7 @@ double e = Math.min(36.2,24.1);
 int f = Math.min(3,103);
 //Retorna
 24.1
-3 
+3
 ```
 
 ## pow
@@ -91,7 +91,7 @@ double e = Math.pow(2,2);
 double f = Math.pow(3,10);
 //Retorna
 4.0
-59049.0 
+59049.0
 ```
 ## random
 Gera um número aleatório entre 0 e 1 (1 nunca será gerado)
@@ -113,7 +113,7 @@ long e = Math.round(2.3);
 long f = Math.round(10.22);
 //Retorna
 2L
-10L 
+10L
 ```
 
 ## sin
@@ -123,7 +123,7 @@ double e = Math.sin(30);
 double f = Math.sin(60);
 //Retorna
 -0.9880316240928618
--0.3048106211022167 
+-0.3048106211022167
 ```
 
 ## tan
@@ -133,7 +133,7 @@ double e = Math.tan(30);
 double f = Math.tan(60);
 //Retorna
 -6.405331196646276
-0.320040389379563 
+0.320040389379563
 ```
 
 ## sqrt
@@ -143,7 +143,7 @@ double e = Math.sqrt(25);
 double f = Math.sqrt(4);
 //Retorna
 5
-2 
+2
 ```
 
 ##exp
@@ -153,4 +153,3 @@ double e = Math.exp(2);
 //Retorna
 7.38905609893065
 ```
-
