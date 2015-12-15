@@ -3,6 +3,7 @@
   Versão do bukkit: 1.7.2  
   IDE: [Nome da IDE] *Somente se for um tutorial para um IDE*  
   Data: 12/12/2015  
+
 #### Autores principais:
 * Neitan96([WebSite](http://www.nathanalmeida.com.br/), Skype:DevNeitan)
 

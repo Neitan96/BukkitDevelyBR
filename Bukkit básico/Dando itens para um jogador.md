@@ -5,6 +5,9 @@ a ele uma descrição.
 **Versão Do Bukkit:** Todas  
 **Data:** 13/12/2015
 
+#### Autores Principais
+* Herobrinedobem
+
 ## Criando O Item
 Primeiramente temos que criar o item, para isso iremos criar um **ItemStack** que serve para instanciar um novo item além de ser possivel criar mais de um item de uma vez, para isso iremos utilizar o seguinte código:
 
@@ -59,7 +62,3 @@ item.setItemMeta(meta);
 player.getInventory().addItem(item);  
 player.updateInventory();  
 ```
-
-----------------------------------------------------------
-####Autores Principais
-* Herobrinedobem

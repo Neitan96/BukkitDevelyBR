@@ -1,9 +1,10 @@
 # Criando e gerenciando eventos
-Neste tutorial você aprenderá a criar, registrar e gerenciar Eventos no Bukkit.
+  Neste tutorial você aprenderá a criar, registrar e gerenciar Eventos no Bukkit.
+  Versão do bukkit: Todas
+  Data: 13/12/2015
 
->  Versão do bukkit: Todas
-
->  Data: 13/12/2015
+#### Autores principais:
+* Jonathan (Skype: jonathan_scripter, [Blog](http://www.souumbyte.tk/))
 
 ## Criando uma classe para seu evento e registrando
 
@@ -131,7 +132,3 @@ for(HandlerList handlerList : HandlerList.getHandlerLists()){
 ***Observação***: Os plugins registram seus `Listener` dentro de instancias de `HandlerList` que são registradas dentro de uma váriavel estática da própria classe (`HandlerList`), logo os `Listeners` estão em diferentes instancias!
 
 **Observação²**: Você pode registrar quantos `Listerners` desejar.
-
--------------------------------------------
-#### Autores principais:
-  * Jonathan (Skype: jonathan_scripter, [Blog](http://www.souumbyte.tk/))

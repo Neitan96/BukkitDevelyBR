@@ -3,6 +3,9 @@
   Versão do bukkit: Todas  
   Data: 14/12/2015  
 
+#### Autores principais:
+* Neitan96([WebSite](http://www.nathanalmeida.com.br/), Skype:DevNeitan)
+
 ## Paths
 
 Paths são o endereço de uma variável na config, exemplo:  
@@ -165,7 +168,3 @@ public void onDisable(){
 Eu recomendo também fazer uma scheduler para salvar a config a cada x minutos, mas como aqui é um tutorial de configs e não de scheduler isso fica por você, claro que você pode consultar o tutorial de scheduler, fica a dica.
 
 Pronto, você já aprendeu a criar a config padrão, manipular valores e salvar a config. Até o próximo tutorial sobre configs.
-
--------------------------------------------
-#### Autores principais:
-  * Neitan96([WebSite](http://www.nathanalmeida.com.br/), Skype:DevNeitan)

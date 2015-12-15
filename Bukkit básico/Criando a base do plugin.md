@@ -3,6 +3,9 @@
   Versão do bukkit: Todas  
   Data: 13/12/2015  
 
+#### Autores principais:
+* Neitan96([WebSite](http://www.nathanalmeida.com.br/), Skype:DevNeitan)
+
 ## plugin.yml
 
 Primeiro temos que criar o plugin.yml, no seu projeto dentro de nenhum package crie um arquivo chamado *plugin.yml*, nele irá conter todas as informações do seu plugin, para ver a documentação oficial clique [aqui](http://wiki.bukkit.org/Plugin_YAML).
@@ -123,7 +126,3 @@ main: br.neitan96.nomedoplugin.NomeDoPlugin
 ```
 
 Pronto, agora é so compilar e ligar o plugin.
-
--------------------------------------------
-#### Autores principais:
-  * Neitan96([WebSite](http://www.nathanalmeida.com.br/), Skype:DevNeitan)
