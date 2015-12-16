@@ -71,7 +71,7 @@ Agora que temos a classe responsável por 'guardar' o comando, volte a classe Ma
 ```java
 public static void registrarComando(String comandoSemBarra, CommandExecutor classe)
 {
-  Comando cmd = new Comando(comandoSemBarra); // ou seja /ajuda
+  Comando cmd = new Comando(comandoSemBarra); // Se o comando for '/ajuda' coloque 'ajuda'
   comandos.put("", cmd); // deixe a primeira field vazia, é prefixo; não use se não souber o que faz.
   cmd.definir(classe); //define onde é pra executar o comando (uma classe que implemente CommandExecutor) e tenha o onCommand().
   // Pronto!
