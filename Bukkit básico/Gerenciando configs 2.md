@@ -1,6 +1,6 @@
 # Gerenciando configs 2
-  Nesse tutorial vamos aprender coisas uteis sobre configs.
-  Versão do bukkit: Todas
+  Nesse tutorial vamos aprender coisas uteis sobre configs.  
+  Versão do bukkit: Todas  
   Data: 15/12/2015  
 
 #### Autores principais:
