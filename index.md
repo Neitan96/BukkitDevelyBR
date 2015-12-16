@@ -12,6 +12,7 @@
 
 # Bukkit avançado
 
+* [Registrando Comandos sem plugin.yml](Bukkit%20avan%C3%A7ado/Registrando%20Comandos%20sem%20plugin.yml.md)
 * Configs 3 *(Em breve)*
 
 # Plugins

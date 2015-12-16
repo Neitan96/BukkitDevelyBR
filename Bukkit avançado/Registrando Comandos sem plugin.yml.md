@@ -1,7 +1,7 @@
-# Registrando Comandos
-  Aprenderemos rapidamente um método simples e eficiente (além de seguro) para registrar comandos no Bukkit sem necessidade de plugin.yml. 
-  Versão do bukkit: Todas versões acima de 1.4.X (Não testado na 1.7.4+)
-  Data: 16/12/2015
+# Registrando Comandos sem plugin.yml
+  Aprenderemos rapidamente um método simples e eficiente (além de seguro) para registrar comandos no Bukkit sem necessidade de plugin.yml.  
+  Versão do bukkit: Todas versões acima de 1.4.X (Não testado na 1.7.4+)  
+  Data: 16/12/2015  
 
 ## Autores principais:
 * João Pedro (ReedFlake ou Atom) - Skype: jpedro2014
@@ -10,11 +10,12 @@
 * Reflection (Fields)
 * CommandMap
 
-## Inicialmente 
+## Inicialmente
 Inicialmente declare uma variável global (fora de voids e afins) estática (static) e privada (private) ou de sua preferência conforme for acessar, como demonstrado abaixo:
 ```java
 private static CommandMap comandos = null;
 ```
+
 ## Agora no void onEnable, coloque
 ```java
 try
@@ -31,20 +32,21 @@ catch (Exception e)
   e.printStackTrace(); //se ocorrer algum erro (de field, principalmente) tratar aqui
 }
 ```
-## Registrando
+
+## Registrando o comando
 #### Primeiro passo
 Crie uma nova classe no mesmo pacote, chamada "Comando" com o conteúdo:
 ```java
 public final class Comando extends Command
 {
-       
+
   private CommandExecutor exe = null;
- 
+
   protected Comando(String nomeDoComandoSemBarras)
   {
     super(nomeDoComandoSemBarras);
   }
- 
+
   // Isso será usado pelo Bukkit apenas.
   @Override
   public boolean execute(CommandSender sender, String commandLabel,String[] args)
@@ -63,6 +65,7 @@ public final class Comando extends Command
   }
 }
 ```
+
 #### Segundo passo
 Agora que temos a classe responsável por 'guardar' o comando, volte a classe Main (que estende JavaPlugin) e registre o comando desta forma como o exemplo abaixo.
 ```java
@@ -81,7 +84,7 @@ public final class Main extends JavaPlugin implements CommandExecutor
 {
 
   private static CommandMap comandos = null;
-  
+
   @Override
   public void onEnable()
   {
@@ -98,16 +101,16 @@ public final class Main extends JavaPlugin implements CommandExecutor
     {
       e.printStackTrace(); //se ocorrer algum erro (de field, principalmente) tratar aqui
     }
-    
+
     registrarComando("ajuda", this); // this = classe Main = implementa CommandExecutor e tem onCommand().
   }
-  
+
   @Override
   public boolean onCommand(CommandSender command, Command cmd, String label, String[] args)
   {
     sender.sendMessage("Comando /ajuda funciona! =D");
   }
-  
+
   public static void registrarComando(String comandoSemBarra, CommandExecutor classe)
   {
     Comando cmd = new Comando(comandoSemBarra); // ou seja /ajuda

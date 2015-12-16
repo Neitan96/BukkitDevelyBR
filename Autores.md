@@ -13,3 +13,6 @@
 
 * Luigi
   * [Resumão classe Math em Java](Java/Resumao%20classe%20Math%20em%20Java.md)
+
+* Atom
+  * [Registrando Comandos sem plugin.yml](Bukkit%20avan%C3%A7ado/Registrando%20Comandos%20sem%20plugin.yml.md)
