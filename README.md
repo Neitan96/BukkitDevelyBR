@@ -1,8 +1,10 @@
 # BukkitDevelyBR
 
-Esse é um projeto para reunir tutoriais de todos os desenvolvedores Bukkit, praticamente uma coleção de tutoriais Bukkit em português. Criado para ser um guia completo de como programar com a API do Bukkit. Caso deseje ajudar sinta-se a vontade de criar, modificar tutoriais.
+O BukkitDevelyBR tem o foco em trazer tutoriais sobre Bukkit em português, o diferencial dele é ser aberto para todos, ou seja, não é somente uma pessoa dando conta de tudo, é a comunidade que cria os tutoriais, sendo assim, não ocorre de uma serie de tutoriais ser cancelada por causa que o autor não está dando conta, aqui você pode tanto aprender como ensinar.
 
-Caso não saiba por onde começar preparamos um guia com a ordem adequada para aprender, basta clicar [aqui](Guia.md).
+Esse é um projeto para reunir tutoriais de todos os desenvolvedores Bukkit, praticamente uma coleção de tutoriais Bukkit. Criado para ser um guia completo de como programar com a API do Bukkit. Caso deseje ajudar sinta-se a vontade de criar, modificar tutoriais.
+
+Caso não saiba por onde começar preparamos um guia com a ordem adequada para aprender, basta clicar [aqui](Guia.md)(Em breve).
 
 ## Links:
 * [Index](index.md)
