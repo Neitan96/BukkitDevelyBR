@@ -1,14 +1,9 @@
 # Checando items no inventário
-  [Iremos aprender a verificar se contém algum item no inventário do jogador.]
-  
-  Versão do bukkit: 1.5.2 - 1.8
-  
+  Iremos aprender a verificar se contém algum item no inventário do jogador.  
+  Versão do bukkit: 1.5.2 - 1.8  
   Data: 23/12/2015  
 
 #### Autores principais:
-* Crazy(Skype:hugosilvaf2)
-
-#### Contribuidores:
 * Crazy(Skype:hugosilvaf2)
 
 ## Método
