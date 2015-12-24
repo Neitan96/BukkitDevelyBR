@@ -16,3 +16,6 @@
 
 * Atom
   * [Registrando Comandos sem plugin.yml](Bukkit%20avan%C3%A7ado/Registrando%20Comandos%20sem%20plugin.yml.md)
+
+* Crazy
+  * [Verificando se contém item no inventário](Bukkit%20básico/Verificando%20se%20contém%20item%20no%20inventário.md)

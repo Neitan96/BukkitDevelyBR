@@ -6,6 +6,7 @@
 * [Configs 2](Bukkit%20básico/Gerenciando%20configs%202.md)
 * [Eventos](Bukkit%20básico/Criando%20Listener%20de%20eventos.md)
 * [Dando itens para um jogador](Bukkit%20básico/Dando%20itens%20para%20um%20jogador.md)
+* [Verificando se contém item no inventário](Bukkit%20básico/Verificando%20se%20contém%20item%20no%20inventário.md)
 * Manipulção de inventário *(Em breve)*
 * Menus *(Em breve)*
 * Shedulers *(Em breve)*
