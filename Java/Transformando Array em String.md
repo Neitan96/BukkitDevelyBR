@@ -1,11 +1,8 @@
 # Transformando Array em String
-  [Aprenderemos a transformar um Array em String]  
+  Aprenderemos a transformar um Array em String  
   Data: 29/12/2015  
 
 #### Autores principais:
-* Crazy, Skype: hugosilvaf2)
-
-#### Contribuidores:
 * Crazy, Skype: hugosilvaf2)
 
 ## Método

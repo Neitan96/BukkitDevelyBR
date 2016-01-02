@@ -19,3 +19,4 @@
 
 * Crazy
   * [Verificando se contém item no inventário](Bukkit%20básico/Verificando%20se%20contém%20item%20no%20inventário.md)
+  * [Transformando Array em String](Java/Transformando%20Array%20em%20String.md)

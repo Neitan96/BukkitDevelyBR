@@ -29,6 +29,7 @@
 * Variaveis *(Em breve)*
 * Modificadores de acesso *(Em breve)*
 * Arrays *(Em breve)*
+* [Transformando Array em String](Java/Transformando%20Array%20em%20String.md)
 * Maps *(Em breve)*
 * Clases *(Em breve)*
 * File *(Em breve)*
