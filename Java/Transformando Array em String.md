@@ -15,7 +15,7 @@ public String parseArray(String[] array, int i){
 	StringBuilder  builder = new StringBuilder();
 	String CHARACTER_SEPARATOR = " ";
 	for(int length = i; length < array.length; length++){
-		builder.append(builder.toString().isEmpty()? array[length] : CHARACTER_SEPARATOR + array[length]);
+		builder.append(builder.length() == 0 ? array[length] : CHARACTER_SEPARATOR + array[length]);
 	}
 	return builder.toString();
 }
