@@ -3,7 +3,10 @@
   Data: 29/12/2015  
 
 #### Autores principais:
-* Crazy, Skype: hugosilvaf2)
+* Crazy(Skype: hugosilvaf2)
+
+#### Contribuidores:
+* [Leonardo Santos](https://github.com/leonardosnt) - 03/01/2016
 
 ## Método
 ```Java
