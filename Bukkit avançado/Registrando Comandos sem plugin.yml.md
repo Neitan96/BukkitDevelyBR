@@ -11,12 +11,12 @@
 * CommandMap
 
 ## Inicialmente
-Inicialmente declare uma variável global (fora de voids e afins) estática (static) e privada (private) ou de sua preferência conforme for acessar, como demonstrado abaixo:
+Inicialmente declare uma variável global (fora de métodos e afins) estática (static) e privada (private) ou de sua preferência conforme for acessar, como demonstrado abaixo:
 ```java
 private static CommandMap comandos = null;
 ```
 
-## Agora no void onEnable, coloque
+## Agora no método onEnable, coloque
 ```java
 try
 {
@@ -59,7 +59,7 @@ public final class Comando extends Command
      return false;
   }
 
-  // Usaremos esse void mais tarde para definir onde está o onCommand() que será usado para tratar o novo comando.
+  // Usaremos esse método mais tarde para definir onde está o onCommand() que será usado para tratar o novo comando.
   public void definir(CommandExecutor exe){
     this.exe = exe;
   }
