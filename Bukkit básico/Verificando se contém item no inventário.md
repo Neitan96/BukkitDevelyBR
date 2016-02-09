@@ -7,14 +7,24 @@
 * Crazy(Skype:hugosilvaf2)
 
 ## Método
+
+Utilizando java 7
 ```Java
 public boolean checkItemStacks(ItemStack[] ises){
-  for(ItemStack is : ises){
+  for(ItemStack is : ises)
     if(is != null && is.getType() != Material.AIR)
       return true;
-  }
   return false;
 }
+```
+Utilizando java 8
+```Java
+	public boolean checkItemStacks(ItemStack[] item){
+		List<ItemStack> list =  Arrays.asList(item);
+		//i = item
+		list = list.stream().filter(i -> i != null && i.getType() != Material.AIR).collect(Collectors.toList());
+		return (list.size() >= 1);
+	}
 ```
 ## Utilizando método
 ```Java
