@@ -20,7 +20,7 @@ public boolean checkItemStacks(ItemStack[] ises){
 Utilizando java 8
 ```Java
 	public boolean checkItemStacks(ItemStack[] item){
-		return Stream.of(item).allMatch(Objects::isNull);
+		return Stream.of(item).anyMatch(Objects::nonNull);
 	}
 ```
 ## Utilizando método
