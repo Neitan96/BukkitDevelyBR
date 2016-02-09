@@ -20,10 +20,7 @@ public boolean checkItemStacks(ItemStack[] ises){
 Utilizando java 8
 ```Java
 	public boolean checkItemStacks(ItemStack[] item){
-		List<ItemStack> list =  Arrays.asList(item);
-		//i = item
-		list = list.stream().filter(i -> i != null && i.getType() != Material.AIR).collect(Collectors.toList());
-		return (list.size() >= 1);
+		return Stream.of(item).allMatch(Objects::isNull);
 	}
 ```
 ## Utilizando método
