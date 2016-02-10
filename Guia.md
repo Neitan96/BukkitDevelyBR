@@ -32,7 +32,7 @@ Agora escolha sua IDE e siga os tutoriais da sua IDE, lembre-se não evite em pe
 3. Numeros *(Em breve)* *(Java)*
 4. Design patterns básico *(Em breve)* *(Java)*
 5. [Configs 1](Bukkit%20básico/Gerenciando%20configs%201.md) *(Bukkit)*
-6. Comandos *(Em breve)* *(Bukkit)*
+6. [Comandos](Bukkit%20básico/Criando%20comandos.md) *(Bukkit)*
 7. [Dando itens para um jogador](Bukkit%20básico/Dando%20itens%20para%20um%20jogador.md) *(Bukkit)*
 8. [Eventos](Bukkit%20básico/Criando%20Listener%20de%20eventos.md) *(Bukkit)*
 9. [Verificando se contém item no inventário](Bukkit%20básico/Verificando%20se%20contém%20item%20no%20inventário.md) *(Bukkit)*

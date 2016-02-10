@@ -1,7 +1,7 @@
 # Bukkit básico
 
 * [Base do plugin](Bukkit%20básico/Criando%20a%20base%20do%20plugin.md)
-* Comandos *(Em breve)*
+* [Comandos](Bukkit%20básico/Criando%20comandos.md)
 * [Configs 1](Bukkit%20básico/Gerenciando%20configs%201.md)
 * [Configs 2](Bukkit%20básico/Gerenciando%20configs%202.md)
 * [Eventos](Bukkit%20básico/Criando%20Listener%20de%20eventos.md)

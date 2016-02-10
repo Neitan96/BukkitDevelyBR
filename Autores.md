@@ -5,6 +5,7 @@
   * [Configs 1](Bukkit%20básico/Gerenciando%20configs%201.md)
   * [Configs 2](Bukkit%20básico/Gerenciando%20configs%202.md)
   * [Carregando libs dentro da sua jar](Bukkit%20avançado/Carregando%20libs%20dentro%20da%20sua%20jar.md)
+  * [Comandos](Bukkit%20básico/Criando%20comandos.md)
 
 * Herobrinedobem
   * [Dando itens para um jogador](Bukkit%20básico/Dando%20itens%20para%20um%20jogador.md)
